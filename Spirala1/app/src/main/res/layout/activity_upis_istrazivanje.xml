@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".view.upisistrazivanje.UpisIstrazivanje">
+
+    <TextView
+        android:id="@+id/tv_odabir_godina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/izaberite_godinu"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/odabirGodina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_odabir_godina"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tv_odabir_istrazivanja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/izaberite_istrazivanje"
+        android:textColor="@color/black"
+        android:layout_below="@id/odabirGodina"
+        android:layout_marginTop="8dp"/>
+
+    <Spinner
+        android:id="@+id/odabirIstrazivanja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_odabir_istrazivanja"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/tv_odabir_grupa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/odabirIstrazivanja"
+        android:text="@string/izaberite_grupu"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black" />
+
+    <Spinner
+        android:id="@+id/odabirGrupa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_odabir_grupa"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp" />
+
+    <Button
+        android:id="@+id/dodajIstrazivanjeDugme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/upi_i_me"
+        android:textAllCaps="true"
+        android:enabled="false"/>
+
+</RelativeLayout>

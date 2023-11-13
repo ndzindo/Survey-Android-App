@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="8dp"
+    android:background="@drawable/bg_item_anketa"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_naziv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Anketa 1"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_status"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/zelena" />
+
+    <TextView
+        android:id="@+id/tv_istrazivanje_broj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_naziv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Istraživanje broj: 1"
+        android:textColor="@color/black"
+        android:textSize="11sp" />
+
+    <ProgressBar
+        android:id="@+id/progresZavrsetka"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_istrazivanje_broj"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:max="100"
+        android:min="0"
+        android:progress="20" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progresZavrsetka"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+
+        android:background="@drawable/bg_datum"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tv_poruka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Datum početka: "
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_datum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01.01.1970"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+    </LinearLayout>
+</RelativeLayout>
