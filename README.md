@@ -25,7 +25,6 @@ The Survey Android App is a powerful tool built with Kotlin, Android Studio, API
 
 ### Prerequisites
 
-- Kotlin: [Download Kotlin](https://kotlinlang.org/)
+- Kotlin: (https://kotlinlang.org/)
 - Android Studio: [Download Android Studio](https://developer.android.com/studio)
   
-Feel free to clone the repository and explore the app's potential in revolutionizing survey administration on Android devices! 🚀
