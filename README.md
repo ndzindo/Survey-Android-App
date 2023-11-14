@@ -1,6 +1,6 @@
 # Survey Android App
 
-An Android Survey App developed using Kotlin, designed to simplify the process of creating and administering surveys on Android devices.
+An Android Survey App developed using Spiral model and programming language Kotlin, designed to simplify the process of creating and administering surveys on Android devices.
 
 ## Tech Stack
 
